@@ -1,0 +1,17 @@
+<h3>Lazy Load</h3>
+
+<button mat-raised-button type="button" (click)="onLoad()">Load</button>
+<button mat-raised-button type="button" (click)="onLoad2()">Load</button>
+<div class="container">
+  <ng-container #container></ng-container>
+</div>
+
+<br>
+<br>
+<button mat-raised-button type="button" (click)="loadImage()">Load Image</button>
+<div class="container">
+  <ng-container #imageContainer></ng-container>
+</div>
+
+
+
